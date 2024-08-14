@@ -8,7 +8,7 @@ pipeline {
         DB_PORT = "${env.PORT}"
         DB_NAME = "${env.DATABASE}"
         DOCKER_IMAGE = 'syedabbass/flask-api:latest'
-        FLASK_APP_PORT = '5200
+        FLASK_APP_PORT = 5200
         SERVER_IP = '18.132.73.146' // Replace with your server's public IP
     }
     stages {
